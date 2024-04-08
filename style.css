@@ -1,0 +1,109 @@
+body{
+	background-color:rgb(255, 231, 231);
+	color:rgb(202, 166, 166);
+	font-family:serif;
+	font-size: 20px;
+}
+
+h2,h3{
+	font-family:"Pacifico", cursive;
+	font-size:30px;
+}
+h1{
+	color: rgb(148, 78, 99);
+	font-family:"Pacifico", cursive;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style:normal;
+}
+
+h2{
+	color: rgb(180, 123, 132);
+
+}
+
+a{
+	text-decoration:none;
+	color:rgb(148, 78, 99);
+	transition: color 0.3s ease;
+}
+
+
+/* Custom design with class*/
+
+.container{
+	width:700px;
+	margin:40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+.card-white{
+	background-color:white;
+	padding:40px;
+	box-shadow:0px 20px 30px rgba(0,0,0,0.1);
+	border-radius:10px;
+	margin:20px 0px;
+	text-align:center;
+}
+
+
+.img-circle{
+	border-radius:200%;
+}
+
+.btn-blue{
+	background-color:rgb(255, 231, 231);
+	color:white;
+	padding:10px 15px;
+	border-radius:4px;
+}
+.btn-blue:hover{
+	background-color:rgb(148, 78, 99);
+	color:white;
+}
+
+.List-inline{
+	list-style:none;
+	padding-left:0px;
+}
+
+.List-inline li{
+	display:inline;
+	padding:10px;
+}
+
+.List-inline i {
+	font-size:40px;
+}
+
+.List-inline i:hover {
+	color:rgb(202, 166, 166);
+}
+
+/* Design adjustments using id*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
